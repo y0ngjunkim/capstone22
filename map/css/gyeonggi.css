@@ -186,7 +186,7 @@ svg{
 
 .content{
     width: 1260px;
-    margin:60px auto;
+    margin:0px auto;
 }
 
 .content h3{
@@ -208,7 +208,6 @@ svg{
 }
 .section02 .content{
     position: relative;
-    top: 20px;
     width: 1000px;
     margin-left: 20%;
 }
