@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/subway.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src='./js/jquery.zoom.js'></script>
+    <script src='./js/jquery.Wheelzoom.js'></script>
+    <title>수도권 지하철노선도</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head-wrap-inner">
+            <a href="../index.html"><img class="head-logo" src="../img/logo.jpg"></a>
+        </div>
+        <div class="head-wrap-sub">
+            <nav class="head-menu-main-nav">
+                <ul>
+                    <li class="main-nav02"><a href="">소개</a></li>
+                    <li class="main-nav03"><a href="../content.html">지역</a></li>
+                    <li class="main-nav04"><a href="./subway.html">지하철</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="section01">
+        <p class="text">지하철 노선도 정보</p>
+        <div class="menu-wrap">
+            <ul class="menu">
+                <li><a href="./subway.html" style="color: #000;" class="citysubway active">수도권</a></li>
+                <li><a href="./busansubway.html" class="citysubway">부산</a></li>
+                <li><a href="./daegusubway.html" class="citysubway">대구</a></li>
+                <li><a href="./gwangjusubway.html" class="citysubway">광주</a></li>
+                <li><a href="./daejeonsubway.html" class="citysubway">대전</a></li>
+            </ul>
+       </div>
+    </div>
+    <div class="section02">
+        <div class="left">
+            <ul>
+                <li class="subwayline line0 active">전체</li>
+                <li class="subwayline line1" style="color: #0d3692;" onclick="alert('줌 기능은 전체만 보입니다')">1호선</li>
+                <li class="subwayline line2" style="color: #33a23d;">2호선</li>
+                <li class="subwayline line3" style="color: #fe5d10;">3호선</li>
+                <li class="subwayline line4" style="color: #00a2d1;">4호선</li>
+                <li class="subwayline line5" style="color: #8b50a4;">5호선</li>
+                <li class="subwayline line6" style="color: #c55c1d;">6호선</li>
+                <li class="subwayline line7" style="color: #54640d;">7호선</li>
+                <li class="subwayline line8" style="color: #f14c82;">8호선</li>
+                <li class="subwayline line9" style="color: #aa9872;">9호선</li>
+                <li class="subwayline line10" style="color: #73c7ab;">경의중앙선</li>
+                <li class="subwayline line11" style="color: #3681b7;">공항철도</li>
+            </ul>
+        </div>
+        <div class="center">
+            <img src="./img/서울/서울 지하철노선도.jpg" class="active" id="0" alt="" >
+            <img src="./img/서울/1호선.jpg" id="1" alt="">
+            <img src="./img/서울/2호선.jpg" id="2" alt="">
+            <img src="./img/서울/3호선.jpg" id="3" alt="">
+            <img src="./img/서울/4호선.jpg" id="4" alt="">
+            <img src="./img/서울/5호선.jpg" id="5" alt="">
+            <img src="./img/서울/6호선.jpg" id="6" alt="">
+            <img src="./img/서울/7호선.jpg" id="7" alt="">
+            <img src="./img/서울/8호선.jpg" id="8" alt="">
+            <img src="./img/서울/9호선.jpg" id="9" alt="">
+            <img src="./img/서울/경의중앙.jpg" id="10" alt="">
+            <img src="./img/서울/공항철도.jpg" id="11" alt="">
+            <img src="./img/서울/수인선.jpg" id="12" alt="">
+            <img src="./img/서울/자기부상.jpg" id="13" alt="">
+            <img src="./img/서울/애버라인.jpg" id="14" alt="">
+            <img src="./img/서울/경춘선.jpg" id="15" alt="">
+            <img src="./img/서울/신분당선.jpg" id="16" alt="">
+            <img src="./img/서울/의정부.jpg" id="17" alt="">
+            <img src="./img/서울/경강선.jpg" id="18" alt="">
+            <img src="./img/서울/우이신설.jpg" id="19" alt="">
+            <img src="./img/서울/서해선.jpg" id="20" alt="">
+            <img src="./img/서울/김포골드.jpg" id="21" alt="">
+            <img src="./img/서울/인천1호선.jpg" id="22" alt="">
+            <img src="./img/서울/인천2호선.jpg" id="23" alt="">
+        </div>
+        <div class="right">
+            <ul>
+                <li class="subwayline line12 active" style="color: #ff8c00;">수인선</li>
+                <li class="subwayline line13" style="color: #ffcd12;">자기부상</li>
+                <li class="subwayline line14" style="color: #4ea346;">애버라인</li>
+                <li class="subwayline line15" style="color: #33c6a6;">경춘선</li>
+                <li class="subwayline line16" style="color: #c82127;">신분당선</li>
+                <li class="subwayline line17" style="color: #fda600;">의정부</li>
+                <li class="subwayline line18" style="color: #0054a6;">경강선</li>
+                <li class="subwayline line19" style="color: #ff8c00;">우이신설</li>
+                <li class="subwayline line20" style="color: #8FC31F;">서해선</li>
+                <li class="subwayline line21" style="color: #AD8605;">김포골드</li>
+                <li class="subwayline line22" style="color: #8cadcb;">인천1호선</li>
+                <li class="subwayline line23" style="color: #ed8000;">인천2호선</li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="top">
+            <div class="area">
+                <div class="link">
+                    <a href="">경영지원센터</a>
+                    <a href="" class="red">개인정보처리방침</a>
+                    <a href="">이용약관</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="./img/uiux_footer.png" alt="">
+            <p>대표전화 031-467-4700 FAX 02-1234-5678 경기도 안양시 동안구 임곡로 29<br>
+                대표 : 강태훈, 안진홍, 김용준<br>
+                Copyright(C)2022 대림대학교 스마트소프트웨어학과 ALL Right Reserved.
+            </p>
+        </div>
+    </div>
+    <script src="./js/subway.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.center').zoom({ on:'click'});
+        });
+    </script>
+</body>
+
+</html>

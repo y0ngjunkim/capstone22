@@ -1,0 +1,101 @@
+$(".subwayline").click(function(){
+    $(this).toggleClass("active")
+    $(this).siblings().removeClass("active")
+})
+
+$(".line0").click(function(){
+    $("#0").toggleClass("active")
+    $("#0").siblings().removeClass("active")
+})
+$(".line1").click(function(){
+    $("#1").toggleClass("active")
+    $("#1").siblings().removeClass("active")
+})
+$(".line2").click(function(){
+    $("#2").toggleClass("active")
+    $("#2").siblings().removeClass("active")
+})
+$(".line3").click(function(){
+    $("#3").toggleClass("active")
+    $("#3").siblings().removeClass("active")
+})
+$(".line4").click(function(){
+    $("#4").toggleClass("active")
+    $("#4").siblings().removeClass("active")
+})
+$(".line5").click(function(){
+    $("#5").toggleClass("active")
+    $("#5").siblings().removeClass("active")
+})
+$(".line6").click(function(){
+    $("#6").toggleClass("active")
+    $("#6").siblings().removeClass("active")
+})
+$(".line7").click(function(){
+    $("#7").toggleClass("active")
+    $("#7").siblings().removeClass("active")
+})
+$(".line8").click(function(){
+    $("#8").toggleClass("active")
+    $("#8").siblings().removeClass("active")
+})
+$(".line9").click(function(){
+    $("#9").toggleClass("active")
+    $("#9").siblings().removeClass("active")
+})
+$(".line10").click(function(){
+    $("#10").toggleClass("active")
+    $("#10").siblings().removeClass("active")
+})
+$(".line11").click(function(){
+    $("#11").toggleClass("active")
+    $("#11").siblings().removeClass("active")
+})
+$(".line12").click(function(){
+    $("#12").toggleClass("active")
+    $("#12").siblings().removeClass("active")
+})
+$(".line13").click(function(){
+    $("#13").toggleClass("active")
+    $("#13").siblings().removeClass("active")
+})
+$(".line14").click(function(){
+    $("#14").toggleClass("active")
+    $("#14").siblings().removeClass("active")
+})
+$(".line15").click(function(){
+    $("#15").toggleClass("active")
+    $("#15").siblings().removeClass("active")
+})
+$(".line16").click(function(){
+    $("#16").toggleClass("active")
+    $("#16").siblings().removeClass("active")
+})
+$(".line17").click(function(){
+    $("#17").toggleClass("active")
+    $("#17").siblings().removeClass("active")
+})
+$(".line18").click(function(){
+    $("#18").toggleClass("active")
+    $("#18").siblings().removeClass("active")
+})
+$(".line19").click(function(){
+    $("#19").toggleClass("active")
+    $("#19").siblings().removeClass("active")
+})
+$(".line20").click(function(){
+    $("#20").toggleClass("active")
+    $("#20").siblings().removeClass("active")
+})
+$(".line21").click(function(){
+    $("#21").toggleClass("active")
+    $("#21").siblings().removeClass("active")
+})
+$(".line22").click(function(){
+    $("#22").toggleClass("active")
+    $("#22").siblings().removeClass("active")
+})
+$(".line23").click(function(){
+    $("#23").toggleClass("active")
+    $("#23").siblings().removeClass("active")
+})

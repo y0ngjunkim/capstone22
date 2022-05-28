@@ -1,0 +1,354 @@
+/*header*/
+.header .head-wrap-inner .search-btn img{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.header{
+    border:var( --temp-border);
+    height: 80px;
+    width: 1100px;
+}
+
+.header .head-wrap-inner{
+    height: 120px;
+    width: 1100px;
+    position: relative;
+    border:var( --temp-border);
+}
+.header .head-wrap-inner .head-logo{
+    position: absolute;
+    margin-left: 25%;
+    top:40px;
+    width:200px;
+    height:75px;
+}
+
+.head-wrap-sub{
+    position: absolute;
+    top:50px;
+    width: 1100px;
+    height: 66px;
+    border:var( --temp-border);
+    margin-left: 35%;
+}
+.head-wrap-sub{
+    display: flex;
+    justify-content: flex-end;
+}
+.head-wrap-sub ul{
+   list-style: none;
+   width: 737px;
+    display: flex;
+    justify-content:space-between;
+ 
+    border:var( --temp-border);
+   
+}
+.head-wrap-sub ul li{
+    text-align: center;
+    flex: auto;
+}
+.head-wrap-sub ul li a{
+    text-decoration: none;
+    display: block;
+    border:var( --temp-border);
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 10px;
+    height: 50px;
+    color: #000;
+}
+.main-nav03{
+    border-bottom: 3px solid #00edff
+} 
+/* .head-wrap-sub ul li a:hover{
+    border-bottom: 3px solid #00edff
+} */
+
+button{
+    border: none;
+    background: none;
+}
+
+.text{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.section1{
+    position: relative;
+    display: flex;
+}
+.city{
+    padding: 20px 30px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.city h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+.city p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.section1 .right{
+    padding-top: 115px;
+    left: 100px;
+    position: relative;
+    width: calc(100% - 520px);
+}
+.section1 .right .city p{
+    position: relative;
+    width: 70%;
+    left: 15%;
+    text-align: center;
+}
+.section1 .right .table{
+    width: 80%;
+    margin-left: 10%;
+}
+#lbBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.25);
+    text-decoration: none;
+  }
+  
+  .lb-widget {
+    display: block;
+    margin: 50px 20%;
+    width: 62%;
+  }
+  
+  .lb-widget .lb-dropdown-select-city {
+    float: none;
+  }
+  
+  .lb-widget .lb-dropdown-select-city.wide {
+    width: 105% !important;
+    margin: -35px auto;
+    margin-left: -5px;
+  }
+  
+  .lb-widget .lb-dropdown-select-city .lbdsc-searchbox {
+    width: 98% !important;
+  }
+  
+  .lb-widget-01,
+  .lb-widget-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lb-main-01,
+  .lb-main-02 {
+    margin: 32px;
+    max-width: 240px;
+    width: 100%;  
+    height: 253px;
+  }
+  @media(max-width:1200px) {
+    .lb-main-01,
+    .lb-main-02 {
+      min-width: 120px;
+      width: auto;
+    }
+  }
+  
+  .lb-weather iframe,
+  .lb-right-weather iframe,
+  .lb-left-weather iframe {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 245px;
+  }
+svg{
+    width: 400px;
+    height: 800px;
+}
+.map{
+    fill: #CCCCCC;
+    fill-opacity: 1;
+    stroke:white;
+    stroke-opacity: 1;
+    stroke-width:0.5;
+    margin-left: 55%;
+}
+
+.content{
+    width: 1260px;
+    margin:60px auto;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 28px;
+    font-family:'NanumGothic', sans-serif;
+    color:#202020;
+}
+
+.desc{
+    text-align: center;
+    width: 70%;
+    margin: 20px auto 50px;
+}
+
+.section02{
+    position: relative;
+    display: block;
+}
+.section02 .content{
+    position: relative;
+    top: 20px;
+    width: 1000px;
+    margin-left: 20%;
+}
+.section02 .content .textname{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-list-container{
+    overflow: hidden;
+}
+
+.card-thumbnail-box{
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-left: 55px;
+    height: 260px;
+    background-color: blueviolet;
+    background: no-repeat 50% 50%;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.card-thumbnail-box:nth-child(1){
+    background-image: url(../../img/남산타워.jpg);
+}
+.card-thumbnail-box:nth-child(2){
+    background-image: url(../../img/광화문.jpg);
+}
+.card-thumbnail-box:nth-child(3){
+    background-image: url(../../img/롯데월드.jpg);
+}
+.card-thumbnail-box:nth-child(4){
+    background-image: url(../../img/북촌한옥마을.jpg);
+}
+
+
+.thumbnail-dimmed{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    transition: opacity.3s;
+    border-radius: 50px;
+}
+
+.thumbnail-dimmed:hover{
+    opacity: 1
+}
+
+.thumbnail-dimmed dl{
+    position: absolute;
+    bottom: -100px;
+    padding: 50px 30px 0px;
+    color:#fff;
+    width: 100%;
+    box-sizing: border-box;
+    transition: bottom.3s
+}
+
+.thumbnail-dimmed dl::after{
+    content:"";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url("../img/iconSet.png") no-repeat 0 -50px;
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    
+}
+
+.thumbnail-dimmed dt{
+    font-size: 24px;
+    font-family:'NanumGothic',sans-serif;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+.thumbnail-dimmed dd{
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 15px;
+    visibility: hidden;
+}
+
+.thumbnail-dimmed:hover dl {
+    bottom: 30px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #262626;
+}
+.footer .top{
+    width: 100%;
+    border-bottom: 1px solid #4a4a4a;
+}
+.footer .top .area{
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .top .link{
+    padding:26px 0;
+}
+.footer .top .link a{
+    position: relative;
+    margin-right: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.footer .top .link a.red{
+    color: #ec3a28;
+}
+.footer .top .link a::after{
+    content: '|';
+    position: absolute;
+    right: -24px;
+    color: #3c3f56;
+}
+.footer .top .link a:last-child::after{
+    display: none;
+}
+.footer .bottom{
+    display: table;
+    width: 1280px;
+    margin: 0 auto;
+}
+.footer .bottom img{
+    float: left;
+    padding-top: 40px 50px 0 0;
+}
+.footer .bottom p{
+    float: left;
+    padding: 35px 0;
+    font-size: 16px;
+    color: #767676;
+}

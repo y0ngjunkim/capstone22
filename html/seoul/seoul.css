@@ -1,0 +1,434 @@
+.header .head-wrap-inner .search-btn img{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.header{
+    border:var( --temp-border);
+    height: 120px;
+    width: 1100px;
+}
+
+.header .head-wrap-inner{
+    height: 120px;
+    width: 1100px;
+    position: relative;
+    border:var( --temp-border);
+}
+.header .head-wrap-inner .head-logo{
+    position: absolute;
+    margin-left: 25%;
+    top:40px;
+    width:200px;
+    height:75px;
+}
+
+.head-wrap-sub{
+    position: absolute;
+    top:50px;
+    width: 1100px;
+    height: 66px;
+    border:var( --temp-border);
+    margin-left: 35%;
+}
+.head-wrap-sub{
+    display: flex;
+    justify-content: flex-end;
+}
+.head-wrap-sub ul{
+   list-style: none;
+   width: 737px;
+    display: flex;
+    justify-content:space-between;
+    border:var( --temp-border);
+   
+}
+.head-wrap-sub ul li{
+    text-align: center;
+    flex: auto;
+}
+.head-wrap-sub ul li a{
+    text-decoration: none;
+    display: block;
+    border:var( --temp-border);
+    text-transform: uppercase;
+    font-size: 24px;
+    padding-top: 10px;
+    height: 40px;
+} 
+.head-wrap-sub ul li a:hover{
+    border-bottom: 3px solid #00edff
+}
+
+.scroll ul{
+    list-style: none;
+    width: 737px;
+    display: flex;
+    justify-content:space-between;
+    border:var( --temp-border);
+}
+
+.scroll ul li{
+    text-align: center;
+    flex: auto;
+}
+.scroll ul li a{
+    text-decoration: none;
+    display: block;
+    border:var( --temp-border);
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 50px;
+    height: 40px;
+}
+
+.section01{
+    position: relative;
+    display: flex;
+}
+
+.section01 .left{
+    position: relative;
+    left: 235px;
+    top: 100px;
+}
+.section01 .left > img{
+    width: 700px;
+    height: 500px;
+    cursor: pointer;
+}
+
+.section01 .right{
+    padding-top: 45px;
+    left: 6%;
+    position: relative;
+    width: 57%
+}
+.section01 .right .Mainname{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.tg  {
+    border-collapse:collapse;
+    border-color:#93a1a1;
+    border-spacing:0;
+    position: relative;
+    left: 20%;
+    margin-top: 55px;
+    width: 60%;
+}
+.tg td{
+    border-color:#93a1a1;
+    border-style:solid;
+    border-top:1px solid #c7c7c7;
+    border-bottom:1px solid #c7c7c7;
+    color:#002b36;
+    font-size:18px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg th{
+    border-color:#93a1a1;
+    border-style:solid;
+    border-top: 1px solid #c7c7c7;
+    border-bottom:1px solid #c7c7c7;
+    font-size:18px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-baqh{
+    text-align:center;
+    vertical-align:top
+}
+.tg .tg-c3ow{
+    border-color:inherit;
+    text-align:center;
+    vertical-align:top;
+    border-top: 1px solid #c7c7c7;
+    border-bottom:1px solid #c7c7c7;
+}
+.tg .tg-0lax{
+    text-align:center;
+    vertical-align:top;
+}
+
+#map{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    top: 5px;
+    margin-top: -20px;
+}
+
+.section02{
+    position: relative;
+    display: block;
+}
+.section02 .content{
+    position: relative;
+    top: 120px;
+    width: 1000px;
+    margin-left: 25%;
+}
+.section02 .content .textname{
+    font-size: 30px;
+    font-weight: bold;
+}
+.section02 .content .text{
+    font-size: 20px;
+    line-height: 2.3;
+}
+.section03{
+    position: relative;
+    display: block;
+}
+.section03 .area{
+    margin-bottom: 70px;
+}
+.section03 .content{
+    position: relative;
+    top: 100px;
+    width: 1000px;
+    margin-left: 25%;
+}
+.section03 .content .textname{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.section03 .content .btn{
+    position: relative;
+    display: block;
+    margin-left: 17%;
+    margin-top: 25px;
+    top: -50px;
+    font-weight: bold;
+}
+
+.section03 .content .btn .btntxt{
+    text-align: center;
+    font-size: 18px;
+    margin-left: 13%;
+}
+.section03 .content .btn .btntxt:nth-of-type(1):after{
+    content: '';
+    width: 10%;
+    height: 2px;
+    background-color: aqua;
+    border-radius: 4px;
+    position: absolute;
+    left: 13%;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.section03 .content .btn .btntxt:nth-of-type(2):after{
+    content: '';
+    width: 10%;
+    height: 2px;
+    background-color: aqua;
+    border-radius: 4px;
+    position: absolute;
+    left: 36%;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.section03 .content .btn .btntxt:nth-of-type(3):after{
+    content: '';
+    width: 9%;
+    height: 2px;
+    background-color: aqua;
+    border-radius: 4px;
+    position: absolute;
+    left: 58%;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .25s ease;
+}
+.section03 .content .btn .btntxt:hover::after{
+    transform: scaleX(1);
+} 
+
+.section04{
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.section04 .content{
+    position: relative;
+    top: 40px;
+    width: 1000px;
+    margin-left: 25%;
+
+}
+.section04 .content .textname{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+.section04 .icon ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section04 .icon ul li{
+    margin-top: 50px;
+    
+}
+.section04 .icon img{
+    width: 80px;
+    height: 80px;
+    flex: 4;
+    cursor: pointer;
+}
+
+.section05{
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.section05 .content{
+    position: relative;
+    top: 20px;
+    width: 1000px;
+    margin-left: 25%;
+
+}
+.section05 .content .textname{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.wrapper{
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 23%;
+}
+.card{
+    width: 250px;
+    height: 200px;
+    padding: 20px 10px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    transform: 0.5s ease-in-out;
+    margin-left: 30px;
+    border-radius: 50px; 
+}
+.card:hover{
+    transform: translateY(20px);
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 38%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.7));
+    z-index: 2;
+    transition: 0.5s all;
+    opacity: 0;
+    border-radius: 0px 0px 50px 50px; 
+}
+.card:hover::before{
+    opacity: 1;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px; 
+}
+.card .info{
+    position: relative;
+    z-index: 3;
+    color: #fff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: 0.5s all;
+}
+.card:hover .info{
+    opacity: 1;
+    transform: translateY(0px);
+}
+.card .info h1{
+    margin: 0;
+    letter-spacing: 1px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+  /*footer*/
+  .footer{
+    width: 100%;
+    background-color: #262626;
+    margin-top: 200px;
+}
+.footer .top{
+    width: 100%;
+    border-bottom: 1px solid #4a4a4a;
+}
+.footer .top .area{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .top .link{
+    padding:26px 0;
+}
+.footer .top .link a{
+    position: relative;
+    margin-right: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+.footer .top .link a.red{
+    color: #ec3a28;
+}
+.footer .top .link a::after{
+    content: '|';
+    position: absolute;
+    right: -24px;
+    color: #3c3f56;
+}
+.footer .top .link a:last-child::after{
+    display: none;
+}
+.footer .bottom{
+    display: table;
+    width: 1280px;
+    margin: 0 auto;
+}
+.footer .bottom img{
+    float: left;
+    padding-top: 40px 50px 0 0;
+}
+.footer .bottom p{
+    float: left;
+    padding: 35px 0;
+    font-size: 16px;
+    color: #767676;
+}

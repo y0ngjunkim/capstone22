@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/subway.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src='./js/jquery.zoom.js'></script>
+    <script src='./js/jquery.zoom-min.js'></script>
+    <script src='./js/jquery.Wheelzoom.js'></script>
+    <title>대구 지하철노선도</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="head-wrap-inner">
+            <a href="../index.html"><img class="head-logo" src="../img/logo.jpg"></a>
+        </div>
+        <div class="head-wrap-sub">
+            <nav class="head-menu-main-nav">
+                <ul>
+                    <li class="main-nav02"><a href="">소개</a></li>
+                    <li class="main-nav03"><a href="../content.html">지역</a></li>
+                    <li class="main-nav04"><a href="./subway.html">지하철</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="section01">
+        <p class="text">지하철 노선도 정보</p>
+        <div class="menu-wrap">
+            <ul class="menu">
+                <li><a href="./subway.html" class="citysubway active">수도권</a></li>
+                <li><a href="./busansubway.html"  class="citysubway">부산</a></li>
+                <li><a href="./daegusubway.html" style="color: #000;" class="citysubway">대구</a></li>
+                <li><a href="./gwangjusubway.html" class="citysubway">광주</a></li>
+                <li><a href="./daejeonsubway.html" class="citysubway">대전</a></li>
+            </ul>
+       </div>
+    </div>
+    <div class="section02">
+        <div class="left">
+            <ul>
+                <li class="subwayline line0 active">전체</li>
+                <li class="subwayline line1" style="color: #d93f5c;">1호선</li>
+                <li class="subwayline line2" style="color: #00aa80;">2호선</li>
+                <li class="subwayline line3" style="color: #ffd700;">3호선</li>
+            </ul>
+        </div>
+        <div class="center">
+            <img src="./img/대구/대구 지하철노선도.jpg" class="allline active" alt="">
+            <img src="./img/대구/1호선.jpg" id="1" alt="">
+            <img src="./img/대구/2호선.jpg" id="2" alt="">
+            <img src="./img/대구/3호선.jpg" id="3" alt="">
+        </div>
+        <div class="right">
+
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="top">
+            <div class="area">
+                <div class="link">
+                    <a href="">경영지원센터</a>
+                    <a href="" class="red">개인정보처리방침</a>
+                    <a href="">이용약관</a>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <img src="./img/uiux_footer.png" alt="">
+            <p>대표전화 031-467-4700 FAX 02-1234-5678 경기도 안양시 동안구 임곡로 29<br>
+                대표 : 강태훈, 안진홍, 김용준<br>
+                Copyright(C)2022 대림대학교 스마트소프트웨어학과 ALL Right Reserved.
+            </p>
+        </div>
+    </div>
+    <script src="./js/subway.js"></script>
+    <script>
+        $(document).ready(function(){
+        $('.center').zoom({ on:'click'});
+        });
+    </script>
+</body>
+
+</html>
