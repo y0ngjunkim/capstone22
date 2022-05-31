@@ -233,13 +233,13 @@ svg{
 }
 
 .card-thumbnail-box:nth-child(1){
-    background-image: url(../img/황리단길.jpg);
+    background-image: url(../img/죽녹원.jpg);
 }
 .card-thumbnail-box:nth-child(2){
-    background-image: url(../img/경주월드.jpg);
+    background-image: url(../img/섬진강기차마을.jpg);
 }
 .card-thumbnail-box:nth-child(3){
-    background-image: url(../img/호미곶.jpg);
+    background-image: url(../img/순천만습지.jpg);
 }
 .card-thumbnail-box:nth-child(4){
     background-image: url(../img/서문시장.jpg);
