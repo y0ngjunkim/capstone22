@@ -111,7 +111,66 @@ button{
     width: 80%;
     margin-left: 10%;
 }
-
+#lbBtn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.25);
+    text-decoration: none;
+  }
+  
+  .lb-widget {
+    display: block;
+    margin: 50px 20%;
+    width: 62%;
+  }
+  
+  .lb-widget .lb-dropdown-select-city {
+    float: none;
+  }
+  
+  .lb-widget .lb-dropdown-select-city.wide {
+    width: 105% !important;
+    margin: -35px auto;
+    margin-left: -5px;
+  }
+  
+  .lb-widget .lb-dropdown-select-city .lbdsc-searchbox {
+    width: 98% !important;
+  }
+  
+  .lb-widget-01,
+  .lb-widget-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .lb-main-01,
+  .lb-main-02 {
+    margin: 32px;
+    max-width: 240px;
+    width: 100%;  
+    height: 253px;
+  }
+  @media(max-width:1200px) {
+    .lb-main-01,
+    .lb-main-02 {
+      min-width: 120px;
+      width: auto;
+    }
+  }
+  
+  .lb-weather iframe,
+  .lb-right-weather iframe,
+  .lb-left-weather iframe {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 245px;
+  }
 svg{
     width: 400px;
     height: 800px;
@@ -127,7 +186,7 @@ svg{
 
 .content{
     width: 1260px;
-    margin:60px auto;
+    margin:0px auto;
 }
 
 .content h3{
@@ -149,7 +208,6 @@ svg{
 }
 .section02 .content{
     position: relative;
-    top: 20px;
     width: 1000px;
     margin-left: 20%;
 }
@@ -175,16 +233,16 @@ svg{
 }
 
 .card-thumbnail-box:nth-child(1){
-    background-image: url(../../img/남산타워.jpg);
+    background-image: url(../img/해안사구.jpg);
 }
 .card-thumbnail-box:nth-child(2){
-    background-image: url(../../img/광화문.jpg);
+    background-image: url(../img/독립기념관.jpg);
 }
 .card-thumbnail-box:nth-child(3){
-    background-image: url(../../img/롯데월드.jpg);
+    background-image: url(../img/무창포해수욕장.jpg);
 }
 .card-thumbnail-box:nth-child(4){
-    background-image: url(../../img/북촌한옥마을.jpg);
+    background-image: url(../img/공산성.jpg);
 }
 
 
@@ -225,9 +283,9 @@ svg{
 }
 
 .thumbnail-dimmed dt{
-    font-size: 22px;
+    font-size: 24px;
     font-family:'NanumGothic',sans-serif;
-    width: 100%;
+    width: 80%;
     margin-bottom: 5px;
 }
 

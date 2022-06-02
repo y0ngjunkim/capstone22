@@ -233,10 +233,10 @@ svg{
 }
 
 .card-thumbnail-box:nth-child(1){
-    background-image: url(../img/황리단길.jpg);
+    background-image: url(../img/부산롯데월드.jpg);
 }
 .card-thumbnail-box:nth-child(2){
-    background-image: url(../img/경주월드.jpg);
+    background-image: url(../img/감천문화마을.jpg);
 }
 .card-thumbnail-box:nth-child(3){
     background-image: url(../img/해금강.jpg);
