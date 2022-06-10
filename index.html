@@ -4,193 +4,220 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
         <!--css-->
         <link rel="stylesheet" href="./css/style.css" type="text/css">
         <link rel="stylesheet" href="./css/common.css" type="text/css">
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <link
+            rel="stylesheet"
+            href="http://code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
         <link rel="stylesheet" href="./css/bootstrap.css">
         <link rel="stylesheet" href="./css/slider.css">
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-        
+
         <!--js-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="./js/common.js"></script>
-        <!-- <script src="./js/weather.js"></script> -->
         <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
         <script type="text/javascript" src="./js/bootstrap.js"></script>
         <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
         <script src="http://kit.fontawesome.com/096073a2a8.js" crossorigin="anonymous"></script>
-    
+
         <!--font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"rel="stylesheet">
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
         <!--swiper-->
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    
+
         <!-- animation -->
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <title>Intrip</title>
     </head>
-<body>
-    <!--헤더-->
-    <div class="header">
-        <div class="head-wrap-inner">
-            <a href="../index.html"><img class="head-logo" src="../img/logo.jpg"></a>
-        </div>
-        <div class="head-wrap-sub">
-            <nav class="head-menu-main-nav">
-                <ul>
-                    <li class="main-nav02"><a href="../index.html">소개</a></li>
-                    <li class="main-nav03"><a href="../content.html">지역</a></li>
-                    <li class="main-nav04"><a href="./지하철/subway.html">지하철</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    
-    <!--메인베너-->
-    <div class="mainBnr" style="background-image: url('./img/main/main_mid_bn01.png');">
-        <span class="text">여행 가기 좋은 날</span>
-    </div>
-    <!--Main-->
-    <div class="section00">
-        <div class="my-calendar clearfix">
-            <div class="clicked-date">
-                <div class="cal-day"></div>
-                <div class="cal-date"></div>
+    <body>
+        <!--헤더-->
+        <div class="header">
+            <div class="head-wrap-inner">
+                <a href="../index.html"><img class="head-logo" src="../img/logo.jpg"></a>
             </div>
-            <div class="calendar-box">
-                <div class="ctr-box clearfix">
-                    <button type="button" title="prev" class="btn-cal prev">
-                    </button>
-                    <span class="cal-month"></span>
-                    <span class="cal-year"></span>
-                    <button type="button" title="next" class="btn-cal next">
-                    </button>
-                </div>
-                <table class="cal-table">
-                    <thead>
-                        <tr>
-                            <th style="color: red;">S</th>
-                            <th>M</th>
-                            <th>T</th>
-                            <th>W</th>
-                            <th>T</th>
-                            <th>F</th>
-                            <th style="color: blue;">S</th>
-                        </tr>
-                    </thead>
-                    <tbody class="cal-body"></tbody>
-                </table>
+            <div class="head-wrap-sub">
+                <nav class="head-menu-main-nav">
+                    <ul>
+                        <li class="main-nav02">
+                            <a href="../intro.html">소개</a>
+                        </li>
+                        <li class="main-nav03">
+                            <a href="../content.html">지역</a>
+                        </li>
+                        <li class="main-nav04">
+                            <a href="./지하철/subway.html">지하철</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </div>  
-    <div class="section01">
-        <div class="area">
-            <div class="title">
-            <p>주요도시 여행지</p>
-            </div>
-            <div class="swiper-container">     
-                <div class="swiper-wrapper">        
-                    <div class="swiper-slide"><a href="./map/seoul.html" class="img_box"><img src="../img/korea/Seoul.jpg" title="서울"></a></div>
-                    <div class="swiper-slide"><a href="./map/gyeonggi.html"><img src="../img/korea/Gyeonggi.jpg" title="경기"></a></div>
-                    <div class="swiper-slide"><a href="./map/gangwon.html"><img src="../img/korea/Gangwon.jpg" title="강원"></a></div>
-                    <div class="swiper-slide"><a href="./map/north chungcheong.html"><img src="../img/korea/North Chungcheong.jpg" title="충청북도"></a></div>
-                    <div class="swiper-slide"><a href="./map/south chungcheong.html"><img src="../img/korea/South Chungcheong.jpg" title="충청남도"></a></div>
-                    <div class="swiper-slide"><a href="./map/north jeolla.html"><img src="../img/korea/North Jeolla.jpg" title="전라북도"></a></div>
-                    <div class="swiper-slide"><a href="./map/south jeolla.html"><img src="../img/korea/South Jeolla.jpg" title="전라남도"></a></div>
-                    <div class="swiper-slide"><a href="./map/north gyeongsang.html"><img src="../img/korea/North Gyeongsang.jpg" title="경상북도"></a></div>
-                    <div class="swiper-slide"><a href="./map/south gyeongsang.html"><img src="../img/korea/South Gyeongsang.jpg" title="경상남도"></a></div>
-                    <div class="swiper-slide"><a href="./map/jeju.html"><img src="../img/korea/Jeju.jpg" title="제주"></a></div>
-                </div>   
-            </div>
-        </div>
-    </div>
-    <div class="section02">
-        <div class="area">
-            <div class="title">
-                <p>인기있는 여행지</p>
-            </div>
-            <div class="cards">
-                <section class="card contact">
-                    <div class="icon">
-                    </div>
-                    <h3>서울 남산타워</h3>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                    <button><a href="../html/seoul/NamsanTower.html">자세히보기</a></button>
-                </section>
-                <section class="card shop">
-                    <div class="icon">
-                    </div>
-                    <h3>부산 해운대해수욕장</h3>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                    <button>자세히보기</button>
-                </section>
-                <section class="card about">
-                    <div class="icon">
-                    </div>
-                    <h3>충남 자연휴양림</h3>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                    <button>자세히보기</button>
-                </section>
-                <section class="card view">
-                    <div class="icon">
-                    </div>
-                    <h3>전북 한옥마을</h3>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                    <button>자세히보기</button>
-                </section>
-            </div>
-            <div class="all">
-                <button style="color: #fff;"><a href="">전체여행지</a></button>
-            </div>
-        </div>
-    </div>
-    <!--footer-->
-    <div class="footer">
-        <div class="top">
-            <div class="area">
-                <div class="link">
-                    <a href="">경영지원센터</a>
-                    <a href="" class="red">개인정보처리방침</a>
-                    <a href="">이용약관</a>
-                </div>
-            </div>
-        </div>
-        <div class="bottom">
-            <img src="./img/uiux_footer.png" alt="">
-            <p>대표전화 031-467-4700 FAX 02-1234-5678 경기도 안양시 동안구 임곡로 29<br>
-                대표 : 강태훈, 안진홍, 김용준<br>
-                Copyright(C)2022 대림대학교 스마트소프트웨어학과 ALL Right Reserved.
-            </p>
-        </div>
-    </div>
-    <button class="topBtn"><img src="./img/chevron-down.svg" alt=""></button>
 
-    <script>    
-        var swiper = new Swiper('.swiper-container', { 
-        effect: 'coverflow',     
-        grabCursor: true,      
-        centeredSlides: true,      
-        slidesPerView: 'auto',      
-        coverflowEffect: {        
-              rotate: 50,        
-              stretch: 0,        
-              depth: 100,        
-              modifier: 1,        
-              slideShadows: true,      
-        },      
-        pagination: {
-               el: '.swiper-pagination',      
-          },   
-        });
+        <!--메인베너-->
+        <div
+            class="mainBnr"
+            style="background-image: url('./img/main/main_mid_bn01.png');">
+            <span class="text">여행 가기 좋은 날</span>
+        </div>
+        <!--Main-->
+        <div class="section00">
+            <div class="my-calendar clearfix">
+                <div class="clicked-date">
+                    <div class="cal-day"></div>
+                    <div class="cal-date"></div>
+                </div>
+                <div class="calendar-box">
+                    <div class="ctr-box clearfix">
+                        <button type="button" title="prev" class="btn-cal prev"></button>
+                        <span class="cal-month"></span>
+                        <span class="cal-year"></span>
+                        <button type="button" title="next" class="btn-cal next"></button>
+                    </div>
+                    <table class="cal-table">
+                        <thead>
+                            <tr>
+                                <th style="color: red;">S</th>
+                                <th>M</th>
+                                <th>T</th>
+                                <th>W</th>
+                                <th>T</th>
+                                <th>F</th>
+                                <th style="color: blue;">S</th>
+                            </tr>
+                        </thead>
+                        <tbody class="cal-body"></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="section01">
+            <div class="area">
+                <div class="title">
+                    <p>주요도시 여행지</p>
+                </div>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="./map/seoul.html" class="img_box"><img src="../img/korea/Seoul.jpg" title="서울"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/gyeonggi.html"><img src="../img/korea/Gyeonggi.jpg" title="경기"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/gangwon.html"><img src="../img/korea/Gangwon.jpg" title="강원"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/north chungcheong.html"><img src="../img/korea/North Chungcheong.jpg" title="충청북도"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/south chungcheong.html"><img src="../img/korea/South Chungcheong.jpg" title="충청남도"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/north jeolla.html"><img src="../img/korea/North Jeolla.jpg" title="전라북도"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/south jeolla.html"><img src="../img/korea/South Jeolla.jpg" title="전라남도"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/north gyeongsang.html"><img src="../img/korea/North Gyeongsang.jpg" title="경상북도"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/south gyeongsang.html"><img src="../img/korea/South Gyeongsang.jpg" title="경상남도"></a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="./map/jeju.html"><img src="../img/korea/Jeju.jpg" title="제주"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section02">
+            <div class="area">
+                <div class="title">
+                    <p>인기있는 여행지</p>
+                </div>
+                <div class="cards">
+                    <section class="card contact">
+                        <div class="icon"></div>
+                        <h3>서울 남산타워</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        <button>
+                            <a href="../html/seoul/NamsanTower.html">자세히보기</a>
+                        </button>
+                    </section>
+                    <section class="card shop">
+                        <div class="icon"></div>
+                        <h3>부산 해운대해수욕장</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        <button>자세히보기</button>
+                    </section>
+                    <section class="card about">
+                        <div class="icon"></div>
+                        <h3>충남 자연휴양림</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        <button>자세히보기</button>
+                    </section>
+                    <section class="card view">
+                        <div class="icon"></div>
+                        <h3>전북 한옥마을</h3>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        <button>자세히보기</button>
+                    </section>
+                </div>
+                <div class="all">
+                    <button style="color: #fff;">
+                        <a href="">전체여행지</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <div class="top">
+                <div class="area">
+                    <div class="link">
+                        <a href="">경영지원센터</a>
+                        <a href="" class="red">개인정보처리방침</a>
+                        <a href="">이용약관</a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <img src="./img/uiux_footer.png" alt="">
+                <p>대표전화 031-467-4700 FAX 02-1234-5678 경기도 안양시 동안구 임곡로 29<br>
+                    대표 : 강태훈, 안진홍, 김용준<br>
+                    Copyright(C)2022 대림대학교 스마트소프트웨어학과 ALL Right Reserved.
+                </p>
+            </div>
+        </div>
+        <button class="topBtn"><img src="./img/chevron-down.svg" alt=""></button>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflowEffect: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true
+                },
+                pagination: {
+                    el: '.swiper-pagination'
+                }
+            });
         </script>
-          <script src="./js/date.js"></script>
-</body>
+        <script src="./js/date.js"></script>
+    </body>
 </html>
