@@ -135,7 +135,6 @@ section {
 #services .article_center2 article {
     text-align: center;
     flex: 0 0 25%;
-    cursor: pointer;
     box-sizing: border-box;
     text-transform: none;
     margin: 25px;
@@ -237,6 +236,7 @@ font-size: 15px;
 .section1_article h3 {
 font-family: 'Cookie', sans-serif;
 color: black;
+width: 1280px;
 margin-bottom: 3%;
 font-size: 25px;
 }
@@ -245,13 +245,21 @@ font-size: 25px;
     margin-bottom: 10px;
 }
 
-.section1_article p {
-  font-family: 'RobotoSlab Regular', serif;
-  word-spacing: 1px;
-  /* font-family: 'Roboto Slab', sans-serif; */
-  font-size: 13px;
-  font-family: 'Roboto Slab', sans-serif;
+.section2_article {
+    text-align: center;
 }
+
+.section2_article h3 {
+font-family: 'Cookie', sans-serif;
+color: black;
+margin-bottom: 3%;
+font-size: 25px;
+}
+
+.section2_article img {
+    margin-bottom: 10px;
+}
+
 
 .article_center2 {
     margin: 0 auto;
